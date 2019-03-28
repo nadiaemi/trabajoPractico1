@@ -42,5 +42,19 @@ body{
 
 
   .logo{
-    color:rgb(218, 115, 115)
+    color:rgb(218, 115, 115);
   }
+
+
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.main-menu .platos li {
+  display: none;
+  position: absolute;
+}
+
+
