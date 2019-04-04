@@ -69,6 +69,12 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 10px;
+  
+}
+
+.recipes {
+  position: relative;
+  overflow: hidden;
 }
 
 .image-recipes img {
@@ -76,36 +82,44 @@ body {
  height: 550px;
 }
 
-.image-recipes span {
-  display: none;
-  overflow: hidden;
-  position: relative;
-}
-
-.image-recipes:hover span{
-  display: block;
+.recipes .recipe-description {
   position: absolute;
+  bottom: 0;
+  padding: 0;
   background-color: rgba(236, 107, 47, 0.61);
   color: white;
-  transition: 1s;
+  transform: translateY(100%);
+  transition: all 0.5s ease-out;
+}
+
+.recipes:hover .recipe-description {
+  transform: translateY(0%);
 }
 
 .menu-2{
   display: flex;
   justify-content: space-between;
+  
+}
+
+.img-content {
+  position: relative;
+  overflow: hidden;
 }
 
 .menu-2 img {
   width: 400px;
   height: 250px;
   border-radius: 15%;
-  position: relative;
+  
 }
 
 .menu-2 h3 {
+  bottom: 120px;
+  right: 170px;
   position: absolute;
-  overflow: hidden;
-  
+  border: 1px solid white;
+  border-radius: 20%;
 }
 
 .video-aboutme {
