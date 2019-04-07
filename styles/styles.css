@@ -25,22 +25,137 @@ time, mark, audio, video {
 font-family: "IBM Plex Mono", monospace;
 font-family: "Indie Flower", cursive;
 */
-body{
-    font-family: "Indie Flower", cursive;
 
-    
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.container {
+  margin: 30px 100px;
+}
+
+.home{
+  color: rgba(236, 107, 47, 0.61)
+}
+
+
+.logo{
+  margin: 0 450px;
+  font-family: "Indie Flower", cursive;
+  color:rgb(218, 115, 115);
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
   }
 
-  header {
-      font-family: "IBM Plex Mono", monospace;
+.main-menu {
+  padding: 0 400px;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
 
-  }
+.main-menu .platos li {
+  display: none;
+}
 
-  .home{
-      color: rgba(218, 115, 115, 0.61)
-  }
+.platos:hover li{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.image-recipes {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  
+}
+
+.recipes {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-recipes img {
+ width: 350px;
+ height: 550px;
+}
+
+.recipes .recipe-description {
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  background-color: rgba(236, 107, 47, 0.61);
+  color: white;
+  transform: translateY(100%);
+  transition: all 0.5s ease-out;
+}
+
+.recipes:hover .recipe-description {
+  transform: translateY(0%);
+}
+
+.menu-2{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.img-content {
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-2 img {
+  width: 400px;
+  height: 250px;
+  border-radius: 15%;
+  
+}
+
+.menu-2 h3 {
+  bottom: 120px;
+  right: 170px;
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 20%;
+}
+
+.video-aboutme {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+}
+
+.video-aboutme .video {
+  font-size: 9px;
+}
+
+.video-aboutme .about-me {
+ padding: 0 40px; 
+}
+
+.video-aboutme .about-me h4 {
+  padding: 4px;
+  border: 1px #FAC3D7;  
+  background-color: #FAC3D7;
+  height: 30px;
+  text-align: center;
+}
+
+.video-aboutme .about-me img {
+  margin: 20px 80px;
+  border-radius: 100%;
+}
+
+.video-aboutme .about-me h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.video-aboutme .about-me p {
+  padding: 20px 0 100px 0;
+}
 
 
-  .logo{
-    color:rgb(218, 115, 115)
-  }
