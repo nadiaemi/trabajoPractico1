@@ -178,6 +178,20 @@ main-menu .platos .submenu {
   
 }
 
+
+.recipe-preparation span {
+    height: 30px;
+    width: 150px;
+    padding: 5px 52px;
+    bottom: 120px;
+    border: 1px solid #FAC3D7;
+    border-radius: 10px;
+    text-align: center;
+    left: 110px;
+    background-color: #FAC3D7;
+    color: #605959
+
+}
 .menu-2 h3 {
   height: 30px;
     width: 150px;
@@ -239,6 +253,18 @@ main-menu .platos .submenu {
   color: black;
 }
 
+/* article */
+.articles .article-one .article-two{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+}
+
+ .article-one{
+   border-bottom: 1px solid rgb(156, 147, 147);
+   border-top: 1px solid rgb(156, 147, 147);
+}
+
 /*RECETA*/
 
 .recipe-container {
@@ -263,8 +289,15 @@ main-menu .platos .submenu {
 .recipe-photo {
   margin: 0 100px 30px;
   display: flex;
+  
 }
 
+/* article img */
+
+ .recipe-photo1 img {
+  border-radius: 30px;
+  width: 350px;
+}
 .recipe-container .recipe-photo img {
   border-radius: 30px;
 }
@@ -275,6 +308,7 @@ main-menu .platos .submenu {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .recipe-container .recipe-photo .share-icons i {
@@ -332,6 +366,13 @@ main-menu .platos .submenu {
   color: #605959;
 }
 
+/*ARTICLE P */
+
+.article .recipe-preparation p {
+  margin: 10px -10px 20px;
+  color: #605959;
+}
+
 .recipe-preparation .quote {
   padding-left: 20px;
   border-left: 2px solid rgba(236, 107, 47, 0.61);
@@ -348,7 +389,14 @@ main-menu .platos .submenu {
 .recipe-preparation ul {
   margin-top: 30px;
   letter-spacing: 0.5px;
+  list-style: none
   
+}
+
+.recipe-preparation ul li:before{
+  content: ".";
+  colorz
+
 }
 
 .recipe-preparation ul li{
@@ -419,6 +467,14 @@ main-menu .platos .submenu {
 
 /* FOOTERS */
 
+footer{
+  
+  
+  font-size: 20px;
+  color: #605959;
+  
+
+}
 div > .social-media{
   margin: 10px 20px;
   padding: 20px;
