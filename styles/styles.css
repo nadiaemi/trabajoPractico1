@@ -254,16 +254,48 @@ main-menu .platos .submenu {
 }
 
 /* article */
-.articles .article-one .article-two{
+
+
+.article-container1{
   display: flex;
   justify-content: space-between;
   margin: 50px 100px;
+  padding:50px;
+  border-bottom: 1px solid rgb(156, 147, 147);
+  border-top: 1px solid rgb(156, 147, 147);
+}
+.article-container2{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+  padding:50px;
 }
 
- .article-one{
-   border-bottom: 1px solid rgb(156, 147, 147);
-   border-top: 1px solid rgb(156, 147, 147);
+.recipe-article{
+  padding:20px 100px;
 }
+
+.recipe-photo1 {
+  
+  width: 350px;
+  float: left;
+}
+.recipe-photo1 img {
+  border-radius: 30px;
+  width: 350px;
+  
+}
+
+.recipe-header > .recipe-preparation p {
+  margin: 10px -10px 20px;
+  color: #605959;
+
+}
+
+.btn-readmore{
+  margin: 20px;
+}
+
 
 /*RECETA*/
 
@@ -292,12 +324,7 @@ main-menu .platos .submenu {
   
 }
 
-/* article img */
 
- .recipe-photo1 img {
-  border-radius: 30px;
-  width: 350px;
-}
 .recipe-container .recipe-photo img {
   border-radius: 30px;
 }
@@ -366,12 +393,6 @@ main-menu .platos .submenu {
   color: #605959;
 }
 
-/*ARTICLE P */
-
-.article .recipe-preparation p {
-  margin: 10px -10px 20px;
-  color: #605959;
-}
 
 .recipe-preparation .quote {
   padding-left: 20px;
@@ -395,7 +416,7 @@ main-menu .platos .submenu {
 
 .recipe-preparation ul li:before{
   content: ".";
-  colorz
+  
 
 }
 
@@ -468,13 +489,11 @@ main-menu .platos .submenu {
 /* FOOTERS */
 
 footer{
-  
-  
-  font-size: 20px;
+  font-size: 15px;
   color: #605959;
-  
 
 }
+
 div > .social-media{
   margin: 10px 20px;
   padding: 20px;
@@ -515,6 +534,14 @@ span  .fa-instagram{
 
 .social-media{
   border-bottom: 1px solid rgb(156, 147, 147);
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  padding: 20px;
+}
+
+i{
+  margin:10px;
 }
 
 
