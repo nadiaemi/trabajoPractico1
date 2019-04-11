@@ -38,19 +38,23 @@ body {
   color: rgba(236, 107, 47, 0.61)
 }
 
+.logo-container{
+ position:relative;
+}
 
-.logo{
+
+div .logo{
   width: 100%;
-  padding: 0 450px;
+  padding: 0 0px;
   font-family: "Indie Flower", cursive;
   color:rgb(218, 115, 115);
-  font-size: 50px;
-  text-align: center;
+  font-size: 60px;
   font-weight: bold;
+  
   }
 
 .main-menu {
-  padding: 0 400px;
+  padding: 0 200px;
   display: flex;
   justify-content: space-between;
 }
@@ -67,6 +71,12 @@ body {
 .main-menu li a:hover {
   color: rgb(218, 115, 115);
 }
+
+
+
+
+
+
 
 /*mirar
 .main-menu .platos {
@@ -116,6 +126,7 @@ main-menu .platos .submenu {
   display: flex;
   justify-content: space-around;
   margin: 10px;
+  
   
 }
 
@@ -405,3 +416,49 @@ main-menu .platos .submenu {
  
   
 }
+
+/* FOOTERS */
+
+div > .social-media{
+  margin: 10px 20px;
+  padding: 20px;
+
+}
+span .a{
+  text-decoration: none;
+  color: #605959;
+}
+
+.fa-facebook-f {
+  background:white;
+  color: rgb(156, 147, 147);
+}
+
+.fa-twitter{
+  background: white;
+  color: rgb(156, 147, 147);
+}
+
+.fa-google-plus-g{
+  background: white;
+  color: rgb(156, 147, 147);
+}
+.fa-linkedin{
+  background: white;
+  color: rgb(156, 147, 147);
+}
+span  .fa-instagram{
+  background:white ; 
+  color:rgb(156, 147, 147);
+}
+
+.fa-youtube{
+  background:white;
+  color: rgb(156, 147, 147);
+}
+
+.social-media{
+  border-bottom: 1px solid rgb(156, 147, 147);
+}
+
+
