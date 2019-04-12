@@ -74,10 +74,6 @@ div .logo{
 
 
 
-
-
-
-
 /*mirar
 .main-menu .platos {
   display: inline-block;  
@@ -99,9 +95,10 @@ main-menu .platos .submenu {
 }hasta acá*/
 
 
-.main-menu  > li {
+.platos {
   position: relative;
   display: inline-block;
+  z-index: 2;
 }
 
 .submenu {
@@ -111,17 +108,17 @@ main-menu .platos .submenu {
   display: none;
 }
 
-.submenu li a {
+.submenu li > a {
   display: block;
   color: #605959;
 }
 
-.main-menu li:hover .submenu {
+.platos:hover .submenu {
   display: block;
   color: #605959;
 }
 
-
+/* carrusel*/
 .image-recipes {
   display: flex;
   justify-content: space-around;
