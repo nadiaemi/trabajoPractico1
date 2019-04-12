@@ -252,25 +252,29 @@ main-menu .platos .submenu {
 
 /* article */
 
+.articles {
+  margin: 0 465px 0 0;
+}
+
+.recipe-article{
+  margin: 20px;
+}
 
 .article-container1{
   display: flex;
   justify-content: space-between;
-  margin: 50px 100px;
-  padding:50px;
+  margin: 50px 54px;
+  padding: 21px;
   border-bottom: 1px solid rgb(156, 147, 147);
   border-top: 1px solid rgb(156, 147, 147);
 }
 .article-container2{
   display: flex;
   justify-content: space-between;
-  margin: 50px 100px;
-  padding:50px;
+  margin: 50px 54px;
+  padding: 21px;
 }
 
-.recipe-article{
-  padding:20px 100px;
-}
 
 .recipe-photo1 {
   
@@ -289,9 +293,38 @@ main-menu .platos .submenu {
 
 }
 
+.recipe-article .recipe-preparation p {
+  margin: 30px 5px;
+  color: #605959;
+
+}
+
+.recipe-article .recipe-preparation h3{
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin: 0 25px;
+}
+
 .btn-readmore{
   margin: 20px;
 }
+
+.recipe-article .recipe-header {
+  margin: 0;
+
+}
+
+.recipe-article .recipe-header ul {
+  width: initial;
+    margin: 0 0 0 95px;
+}
+
+.recipe-article .recipe-preparation {
+  margin: 0;
+  font-size: initial;;
+}
+
 
 
 /*RECETA*/
@@ -362,6 +395,7 @@ main-menu .platos .submenu {
 .recipe-header {
   margin-left: 190px;
   display: flex;
+  align-items: center;
   font-size: 14px;
   color: #605959;
 }
@@ -496,7 +530,7 @@ div > .social-media{
   padding: 20px;
 
 }
-span .a{
+footer span .a{
   text-decoration: none;
   color: #605959;
 }
