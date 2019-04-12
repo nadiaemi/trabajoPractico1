@@ -39,7 +39,7 @@ body {
 }
 
 .logo-container{
- position:relative;
+  padding: 10px 400px;
 }
 
 
@@ -432,7 +432,7 @@ main-menu .platos .submenu {
 
 }
 
-.recipe-preparation .quote span {
+.recipe-preparation .quote p {
   color: black;
 }
 
@@ -446,13 +446,17 @@ main-menu .platos .submenu {
 }
 
 .recipe-preparation ul li:before{
-  content: ".";
-  
+  content: "• ";
+  color: rgba(236, 107, 47, 0.61);
 
 }
 
+
+
 .recipe-preparation ul li{
-  list-style: disc;
+  list-style: none;
+    padding-left: 1em; 
+    text-indent: -.7em;
 
 }
 
