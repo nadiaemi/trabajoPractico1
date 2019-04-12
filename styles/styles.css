@@ -39,7 +39,7 @@ body {
 }
 
 .logo-container{
-  padding: 10px 400px;
+  padding: 0px 300px;
 }
 
 
@@ -51,6 +51,9 @@ div .logo{
   font-size: 60px;
   font-weight: bold;
   
+  }
+  a .fa-bars {
+    display: none;
   }
 
 .main-menu {
@@ -520,6 +523,24 @@ main-menu .platos .submenu {
  
   
 }
+
+@media only screen and (max-width: 450px){
+  .container {
+    margin: 0;
+    padding: 100px;
+  }
+  .logo-container{
+    padding:0;
+  }
+
+  .main-menu{
+    display: none;
+  }
+  a .fa-bars {
+    display: block;
+  }
+}
+
 
 /* FOOTERS */
 
